@@ -1,0 +1,56 @@
+/* AboutUs.css */
+
+/* Container styles */
+.container-xxl {
+    padding: 5rem 0;
+  }
+  
+  /* Image styles */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  /* Add a hover effect to the images */
+  .img-fluid:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+  
+  /* Section title styles */
+  .section-title {
+    margin-top: 2rem;
+  }
+  
+  /* Text styles */
+  .fs-5 {
+    font-size: 1.25rem;
+  }
+  
+  .fw-medium {
+    font-weight: 500;
+  }
+  
+  .fst-italic {
+    font-style: italic;
+  }
+  
+  .text-prim {
+    color: #e34510; /* Custom primary text color */
+  }
+  
+  .display-6 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Border styles */
+  .border-top {
+    border-top: 1px solid #ccc;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
