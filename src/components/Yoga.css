@@ -1,0 +1,44 @@
+.animated-text {
+    animation-name: slideInUp; /* Define your animation name */
+    animation-duration: 1s; /* Animation duration */
+    animation-timing-function: ease; /* Animation timing function */
+  }
+  
+  @keyframes slideInUp {
+    0% {
+      transform: translateY(50px); /* Start position */
+      opacity: 0; /* Start opacity */
+    }
+    100% {
+      transform: translateY(0); /* End position */
+      opacity: 1; /* End opacity */
+    }
+  }
+  .equal-size {
+    width: 100%; /* Set the width to 100% */
+    height: 79%; /* Maintain the aspect ratio */
+  }
+/* Add this CSS to your Yoga.css file */
+.container-xxl {
+    background-image: url('../img/product-bg.png'); /* Replace with the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center; /* Center the image */
+    padding: 50px 0; /* Add some padding for spacing */
+  }
+  /* Change the font style for "Article" text */
+.fs-5 {
+    font-family: 'Your Font', sans-serif; /* Replace 'Your Font' with the desired font family */
+    font-weight: 600; /* Adjust font weight as needed */
+    font-style: italic; /* Add italic style if desired */
+    color: #c64426; /* Change text color */
+  }
+  
+  /* Change the font style for <h1> element */
+  .display-6 {
+    font-family: 'Your Font', sans-serif; /* Replace 'Your Font' with the desired font family */
+    font-weight: 700; /* Adjust font weight as needed */
+    font-size: 36px; /* Adjust font size as needed */
+    /* You can add more styling properties as needed */
+  }
+  
