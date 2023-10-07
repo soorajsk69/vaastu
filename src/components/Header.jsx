@@ -27,7 +27,7 @@ export default function Header() {
           </div>
           <Navbar.Collapse id="navbar-nav" className="justify-content-end">
             <Nav>
-              <Nav.Link href="index.html">Home</Nav.Link>
+              <Nav.Link href="">Home</Nav.Link>
               <Nav.Link href="about.html">About</Nav.Link>
               <Nav.Link href="store.html">Services</Nav.Link>
               <Nav.Link href="contact.html">Contact</Nav.Link>

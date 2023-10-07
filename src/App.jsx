@@ -6,17 +6,20 @@ import Home from './components/Home';
 import Aboutus from './components/Aboutus';
 import Services from './components/Services';
 import Yoga from './components/Yoga';
+import Gallery from './components/Gallery';
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
     <Header/>
-    <Home/>
+   <Home/>
     <Aboutus/>
     <Services/>
     <Yoga/>
-    </>
+     <Gallery/>
+  
+ </>
   )
 }
 
